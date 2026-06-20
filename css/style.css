@@ -1026,7 +1026,9 @@ html{
     header{
         width: 100%;
     }
-    
+    .firstnav{
+         
+    }
     header div{
          width: 100%;
     }
@@ -1132,7 +1134,7 @@ html{
         gap: 1rem;
     }
 }
-@media (min-width: 768px) and (max-width: 769px){
+@media (min-width: 426px) and (max-width: 769px){
     body{
         width: 100%;
     }
@@ -1183,9 +1185,12 @@ html{
         align-items: center;
         flex-direction: column;
     }
+    .conta1-flex{
+        display: flex;
+    }
     .conta2{
-        padding-bottom: 14%;
-        padding-top: 14%;
+        /* padding-bottom: 14%;
+        padding-top: 14%; */
         gap: 1rem;
         align-items: center;
         flex-direction: column;
