@@ -19,7 +19,6 @@ header{
     border-radius: 10px;
     box-shadow: 0px 0px 100px 0px rgb(111, 9, 117);
 }
-
 .input-search{
     background-color: #a8f1f5;
     color: #255856;
@@ -27,7 +26,7 @@ header{
     border: none;
     border-radius: 15px;
     width: 50%;
-   
+    
 }
 .input-search:focus{
     color: rgb(225, 5, 225);
@@ -64,7 +63,7 @@ padding: 30px 0px 30px 0px;
 }
 .firsth1{
     font-family: "Monoton", sans-serif;
-  font-weight: 400;
+    font-weight: 400;
   font-style: normal;
     align-items: center;
     font-weight: 100;
@@ -76,7 +75,7 @@ padding: 30px 0px 30px 0px;
 .input§ul{
     width: 15%;
     color: white;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background:linear-gradient(to right ,rgb(156, 94, 250),rgb(240, 146, 240));
     border: none;
     border-radius: 10px;
@@ -89,9 +88,9 @@ padding: 30px 0px 30px 0px;
     color: rgb(46, 237, 244);
       transform: translateY(-5px);
        box-shadow: 0 5px 10px rgba(12, 11, 11, 0.2);
-}
-.input§ul:hover p{
-     transform: translateY(-7px);
+    }
+    .input§ul:hover p{
+        transform: translateY(-7px);
 }
 
 .input§ul:hover a{
@@ -110,7 +109,7 @@ padding: 30px 0px 30px 0px;
     width: 100%;
 }
 .inputsecond{
-     background:linear-gradient(to right ,rgb(241, 8, 241),rgb(240, 146, 240));
+    background:linear-gradient(to right ,rgb(241, 8, 241),rgb(240, 146, 240));
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -123,7 +122,7 @@ padding: 30px 0px 30px 0px;
 .inputsecond:hover{
     cursor: pointer;
       background-color: rgb(255, 255, 255);
-    color: rgb(46, 237, 244);
+      color: rgb(46, 237, 244);
       transform: translateY(-5px);
        box-shadow: 0 5px 10px rgba(12, 11, 11, 0.2);
 }
@@ -164,13 +163,13 @@ button a{
 /* the big-icon section */
 .bigicon{
     background-color: rgb(246, 246, 253);
-
+    
 }
 .conta{
     padding: 50px 0px 50px 0px;
-   width: 100%;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -179,12 +178,12 @@ button a{
 }
 
 .conta1{
-  width: 100%;
+    width: 100%;
     flex-direction: row;
     display: flex;
 }
 .conta2{
-   width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     background-color: rgb(246, 246, 253);
@@ -198,7 +197,7 @@ button a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
 }
 .pbox{
     
@@ -225,7 +224,7 @@ button a{
 .div-built{
     background-color: #f4e8f7;
     color: #1cc0b7;
-     padding: 10px 0px 50px 0px;
+    padding: 10px 0px 50px 0px;
     width: 100%;
     text-align: center;
 }
@@ -235,11 +234,11 @@ button a{
 
 .boxone2{
    width: 100%;
-    display: flex;
+   display: flex;
     flex-direction: row;
 }
 .boxone{
-   width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -254,10 +253,10 @@ button a{
     z-index: 2000;
     width: 100%;
      transition: transform 0.5s ease-in-out; 
-}
-.img-textup:hover img{
-  transform: scale(1.15); 
-}
+    }
+    .img-textup:hover img{
+        transform: scale(1.15); 
+    }
 .gradient{
     border-radius: 10px;
     height: 100%;
@@ -269,11 +268,11 @@ button a{
 background:linear-gradient(to bottom, transparent ,rgb(176, 122, 198)) ;
  transition: transform 0.5s ease-in-out;
  z-index: 1000;
-
+ 
 }
 .textup{
     text-align: center;
- width: 50%;
+    width: 50%;
    background-color: azure;
     display: flex;
     justify-content: center;
@@ -284,7 +283,7 @@ background:linear-gradient(to bottom, transparent ,rgb(176, 122, 198)) ;
 }
 .textup p{
     color: rgb(137, 135, 135);
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .textup h3{
     color: rgb(126, 99, 99);
@@ -307,7 +306,7 @@ background:linear-gradient(to bottom, transparent ,rgb(176, 122, 198)) ;
 .div1{
     padding: 50px 0px 50px 0px;
     width: 90%;
-display: flex;
+    display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
@@ -338,7 +337,7 @@ flex-direction: column;
 /* fourth container */
 .conta4{
     padding: 50px 0px 50px 0px;
-      display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
@@ -364,7 +363,7 @@ flex-direction: column;
     width: 40%;  
 }
 .textandicons img{
-width: 10%;
+    width: 10%;
 }
 .text-beside-theicon{
 width: 70%;
@@ -423,17 +422,17 @@ width: 70%;
 .btn2{
     border-radius: 10px;
     padding: 10px;
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .btn2 a p{
     color: white;
 }
 .btn2:hover{
-cursor: pointer;
+    cursor: pointer;
   background-color: white;
-    color: rgb(6, 188, 248);
-      transform: translateY(-5px);
-       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: rgb(6, 188, 248);
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .btn2:hover a p{
     color: rgb(107, 226, 247);
@@ -448,7 +447,7 @@ cursor: pointer;
     color: white;
     border: none;
     background: linear-gradient( to right,rgb(135, 51, 231),rgb(206, 89, 242));
-   
+    
 }
 .inputandtext{
     display: flex;
@@ -480,7 +479,7 @@ cursor: pointer;
     top: 50px;
     left: 10px;
     
-
+    
     background-color: rgba(255, 255, 255, 0.15); 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
@@ -489,7 +488,7 @@ cursor: pointer;
     border-radius: 12px;
     padding: 10px 0;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-
+    
    
     opacity: 1;
     visibility: visible;
@@ -684,7 +683,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 30px;
-
+    
     height: 30px;
     cursor: pointer;
 }
@@ -702,7 +701,7 @@ footer {
   
     position: absolute;
     bottom: 130%;
- 
+    
     left: 50%;
     transform: translateX(-50%);
     background-color: #84e7f9;
@@ -712,7 +711,7 @@ footer {
     font-size: 14px;
     white-space: nowrap;
     opacity: 0;
-
+    
     visibility: hidden;
     transition: opacity 0.3s ease;
 }
@@ -726,7 +725,7 @@ footer {
     transform: translateX(-50%);
     border: 8px solid transparent;
     border-top-color: #7df4ee;
-
+    
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
@@ -746,7 +745,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 30px;
-
+    
     height: 30px;
     cursor: pointer;
 }
@@ -754,7 +753,7 @@ footer {
 .iconfollowf1 i {
     font-size: 20px;
     color: #f088f1;
-
+    
     transition: all 0.3s ease;
 }
 
@@ -776,7 +775,7 @@ footer {
     font-size: 14px;
     white-space: nowrap;
     opacity: 0;
-
+    
     visibility: hidden;
     transition: opacity 0.3s ease;
 }
@@ -790,7 +789,7 @@ footer {
     transform: translateX(-50%);
     border: 8px solid transparent;
     border-top-color: #88e5fe;
-
+    
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
@@ -812,7 +811,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 30px;
-
+    
     height: 30px;
     cursor: pointer;
 }
@@ -873,7 +872,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 30px;
-
+    
     height: 30px;
     cursor: pointer;
 }
@@ -890,10 +889,10 @@ footer {
 
 .iconfollowf2::after {
     content: "Instagram";
-  
+    
     position: absolute;
     bottom: 130%;
-
+    
     left: 50%;
     transform: translateX(-50%);
     background-color: #85e0fe;
@@ -947,7 +946,7 @@ footer {
 .iconfollowf3 i {
     font-size: 20px;
     color: #f796f4;
-
+    
     transition: all 0.3s ease;
 }
 
@@ -956,7 +955,7 @@ footer {
     
     position: absolute;
     bottom: 130%;
- 
+    
     left: 50%;
     transform: translateX(-50%);
     background-color: #86ebfc;
@@ -966,7 +965,7 @@ footer {
     font-size: 14px;
     white-space: nowrap;
     opacity: 0;
- 
+    
     visibility: hidden;
     transition: opacity 0.3s ease;
 }
@@ -1005,11 +1004,11 @@ footer {
     right: 0;
     margin-bottom: 2rem;
     margin-right: 1rem;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .btn-fxd-last:hover{
      transform: translateY(-7px);
-}
+    }
 .btn-fxd-last a{
     text-decoration: none;
     color: white;
@@ -1027,6 +1026,7 @@ html{
     header{
         width: 100%;
     }
+    
     header div{
          width: 100%;
     }
@@ -1142,6 +1142,7 @@ html{
     header{
         width: 100%;
     }
+
     header div{
          width: 100%;
     }
