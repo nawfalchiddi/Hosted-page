@@ -145,7 +145,8 @@ button a{
     color: rgb(146, 145, 145);
 }
 .box1icon img{
-    width: 60%;
+    width: 40%;
+    opacity: 0.8;
     border-radius: 10px;
 }
 
@@ -1069,6 +1070,9 @@ html{
         text-align: center;
         width: 100%;
     }
+    .box1icon img{
+        width: 60%;
+    }
     .inputsecond{
         width: 30%;
     }
@@ -1184,6 +1188,9 @@ html{
         display: flex;
         text-align: center;
         width: 100%;
+    }
+     .box1icon img{
+        width: 60%;
     }
     .inputsecond{
         width: 30%;
