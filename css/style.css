@@ -369,6 +369,13 @@ flex-direction: column;
         box-shadow: 0px 0px 10px 2px lightpink;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.textandicons:hover{
+    cursor: pointer;
+  background-color: rgb(232, 247, 251);
+  color: rgb(6, 188, 248);
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 .textandicons img{
     width: 10%;
 }
