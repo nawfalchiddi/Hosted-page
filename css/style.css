@@ -504,7 +504,6 @@ width: 70%;
     top: 50px;
     left: 10px;
     
-    
     background-color: rgba(255, 255, 255, 0.15); 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
@@ -1056,9 +1055,14 @@ html{
          width: 100%;
     }
     .firstnav{
+        position: relative;
         gap: 1rem;
         width: 100%;
         flex-direction: column;
+    }
+    .burger-line{
+        position: relative;
+        right: 10rem;
     }
     .firstnav2{
         gap: 1rem;
@@ -1178,7 +1182,12 @@ html{
     header div{
          width: 100%;
     }
+     .burger-line{
+        position: relative;
+        right: 10rem;
+    }
     .firstnav{
+        gap: 1rem;
         width: 100%;
         flex-direction: column;
     }
@@ -1282,8 +1291,6 @@ html{
     .btn2 a p{
         width: 100%;
     }
-    .firstnav{
-        gap: 1rem;
-    }
+    
 
 }
