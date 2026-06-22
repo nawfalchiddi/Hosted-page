@@ -1055,14 +1055,13 @@ html{
          width: 100%;
     }
     .firstnav{
-        position: relative;
         gap: 1rem;
         width: 100%;
         flex-direction: column;
     }
-    .burger-line{
+    #open{
         position: relative;
-        right: 10rem;
+        right: 30%;
     }
     .firstnav2{
         gap: 1rem;
@@ -1182,9 +1181,9 @@ html{
     header div{
          width: 100%;
     }
-     .burger-line{
+      #open{
         position: relative;
-        right: 10rem;
+        right:40%;
     }
     .firstnav{
         gap: 1rem;
