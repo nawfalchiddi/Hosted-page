@@ -1051,13 +1051,17 @@ html{
     header{
         width: 100%;
     }
-    .firstnav{
-         
-    }
+
     header div{
          width: 100%;
     }
     .firstnav{
+        gap: 1rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .firstnav2{
+        gap: 1rem;
         width: 100%;
         flex-direction: column;
     }
@@ -1158,9 +1162,7 @@ html{
     .btn2 a p{
         width: 100%;
     }
-    .firstnav{
-        gap: 1rem;
-    }
+ 
 }
 @media (min-width: 426px) and (max-width: 769px){
     body{
