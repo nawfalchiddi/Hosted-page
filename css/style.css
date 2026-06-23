@@ -1111,9 +1111,7 @@ html{
     .inputsecond{
         width: 30%;
     }
-    .bigicon{
-        
-    }
+  
     .conta{
         text-align: center;
     }
@@ -1122,6 +1120,9 @@ html{
         gap: 1rem;
         align-items: center;
         flex-direction: column;
+    }
+    .box1{
+        width: 80%;
     }
     .conta2{
         padding-bottom: 14%;
@@ -1234,9 +1235,7 @@ html{
     .inputsecond{
         width: 30%;
     }
-    .bigicon{
-        
-    }
+
     .conta{
         text-align: center;
     }
@@ -1245,6 +1244,9 @@ html{
         gap: 1rem;
         align-items: center;
         flex-direction: column;
+    }
+    .box1{
+        width: 90%;
     }
     .conta1-flex{
         display: flex;
