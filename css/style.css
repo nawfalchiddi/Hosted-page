@@ -188,7 +188,7 @@ button a{
     color: gray;
 }
  .conta1-flex{
-    padding-bottom: 1%;
+    padding-bottom: 3%;
  }
 .conta1{
     gap: 1%;
@@ -1157,12 +1157,12 @@ html{
            gap: 5rem;
     }
     .textandicons{
+        height: 30vh;
         align-items: center;
         width: 90%;
         border: 1px solid lightblue ;
         border-radius: 10px;
     }
-    .conta5{}
 
     .textonly{
         text-align: center;
