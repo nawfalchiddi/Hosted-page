@@ -7,6 +7,146 @@
     flex-direction: column;
 }
 
+
+/* Card Title */
+
+.box1 h3{
+
+    font-size:1.45rem;
+    font-weight:700;
+    color:#1f2937;
+
+    margin-top:8px;
+    margin-bottom:12px;
+
+    line-height:1.3;
+
+    letter-spacing:.3px;
+
+}
+
+/* Card Text */
+
+.pbox{
+
+    width:100%;
+    max-width:260px;
+
+    font-size:15px;
+    font-weight:400;
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+    letter-spacing:.2px;
+
+    text-align:center;
+
+    margin:0 auto;
+
+}
+
+/* Better spacing between elements */
+
+.box1{
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:18px;
+
+    padding:40px 30px;
+
+}
+
+.conta1,
+.conta2{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.box1{
+    background:#ffffff;
+    border-radius:20px;
+    padding:40px 30px;
+    min-height:320px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:20px;
+
+    border:none;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.06);
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+.box1:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+        0 20px 45px rgba(124,58,237,.18);
+
+}
+
+.class5{
+
+    width:75px;
+    height:75px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f5efff;
+
+    border-radius:50%;
+
+    font-size:32px;
+
+    margin-bottom:10px;
+
+}
+
+.box1 h3{
+
+    font-size:24px;
+
+    font-weight:600;
+
+    color:#242424;
+
+}
+
+.pbox{
+
+    color:#6b7280;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    max-width:260px;
+
+}
 body{
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -243,48 +383,61 @@ button a{
 
 /* the upper part of the image and text */
 .contaSecond-analys{
-    padding: 0px 0px 50px 0px;
-    width: 100%;
+      background-color: rgb(248, 235, 250);
+      width:100%;
+    max-width:1400px;
+  margin-bottom: 1%;
+    padding:0 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .div-built{
-    background-color: #f4e8f7;
-    color: #1cc0b7;
+    background-color: rgb(248, 235, 250);
+    color: #6e7070;
     padding: 10px 0px 50px 0px;
     width: 100%;
     text-align: center;
 }
+
 .div-built p{
-    color: #83aba9;
+    color: #748584;
 }
 
 .boxone2{
+    background-color:rgb(248, 235, 250);
    width: 100%;
    display: flex;
     flex-direction: row;
 }
-.boxone{
+.boxone{  gap: 5%;
+      background-color: rgb(248, 235, 250);
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items:center;
+margin-top: 1%;
 }
 .img-textup{
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    width: 50%;
-    
+
+    width:50%;
+background-color: rgb(238, 209, 243);
+    overflow:hidden;
+    border-radius:24px;
+    position:relative;
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.08);
+
 }
 .img-inside-txtup{
-    z-index: 2000;
-    width: 100%;
-     transition: transform 0.5s ease-in-out; 
-    }
-    .img-textup:hover img{
-        transform: scale(1.15); 
-    }
+    width:100%;
+    display:block;
+    transition:transform .5s ease;
+}
+ .img-textup:hover img{
+    transform:scale(1.08);
+
+}
 .gradient{
     border-radius: 10px;
     height: 100%;
@@ -299,16 +452,21 @@ background:linear-gradient(to bottom, transparent ,rgb(176, 122, 198)) ;
  
 }
 .textup{
-    text-align: center;
     width: 50%;
-   background-color: rgb(253, 240, 255);
+   background-color: rgb(248, 235, 250);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     
+   
+    align-items:flex-start;
+
+    gap:28px;
+
+    padding:20px; 
 }
+
 .textup p{
     color: rgb(137, 135, 135);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -383,7 +541,7 @@ flex-direction: column;
 }
 
 .textandicons{
-    background-color: rgb(241, 185, 241);
+    background-color: rgb(244, 230, 244);
     position: relative;
     height: 25vh;
     display: flex;
