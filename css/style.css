@@ -58,7 +58,7 @@
 
     justify-content:center;
 
-    gap:18px;
+    gap:20px;
 
     padding:40px 30px;
 
@@ -385,7 +385,6 @@ button a{
 .contaSecond-analys{
       background-color: rgb(248, 235, 250);
       width:100%;
-    max-width:1400px;
   margin-bottom: 1%;
     padding:0 40px;
     display: flex;
